@@ -157,6 +157,20 @@ body {
     margin-top: 20px;
 }
 
+.map-container {
+    height: 200px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
 @media (max-width: 480px) {
     .weather-app {
         padding: 20px;
